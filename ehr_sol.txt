@@ -1,0 +1,9 @@
+pragma solidity >=0.4.0 <0.6.0;
+contract ehr {
+    string msg;
+    function transaction() public returns(String memory) {
+	msg = "Transaction Successful";
+	return (msg);
+    }
+    
+}
